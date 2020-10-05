@@ -21,6 +21,7 @@ class TweetsController < ApplicationController
    else
     # 保存されなければnew(投稿画面)に戻る
     render 'new'
+   end
   end
 
   def destroy
